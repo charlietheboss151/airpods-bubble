@@ -1,0 +1,127 @@
+AIRPODS BUBBLE 🫧
+PRODUCT CONCEPT
+
+Project: AirPods Bubble
+Creator: Charlie
+Date Started: September 29, 2026
+Version: 1.0
+
+
+THE PROBLEM
+
+When two people are in a loud environment, they may want to keep Active Noise Cancellation (ANC) enabled while still being able to talk to each other.
+
+Currently, they may have to remove their AirPods, turn off ANC, pause their audio, or share a pair of earbuds.
+
+This is especially inconvenient on airplanes, buses, trains, and other noisy environments.
+
+
+THE IDEA
+
+AirPods Bubble is a proposed feature that creates a private, short-range voice connection between two nearby AirPods users.
+
+Each person can continue listening to their own audio while hearing the other person's voice directly through their AirPods.
+
+The connection is designed for people who are physically near each other, rather than for long-distance communication like a traditional phone call.
+
+
+HOW IT WORKS
+
+1. Two nearby people wearing compatible AirPods activate Bubble Mode.
+
+2. Their phones establish a local wireless connection.
+
+3. Each person's AirPods microphone captures their voice.
+
+4. Their voice is transmitted to the other person's device.
+
+5. The other person's AirPods play the voice.
+
+6. Both people can continue listening to their own music or other audio.
+
+7. Active Noise Cancellation can remain enabled.
+
+
+AUDIO FLOW
+
+Person A:
+AirPods microphone
+→ Phone A
+→ Local wireless connection
+→ Phone B
+→ AirPods B
+→ Person B hears Person A
+
+At the same time:
+
+Person B:
+AirPods microphone
+→ Phone B
+→ Local wireless connection
+→ Phone A
+→ AirPods A
+→ Person A hears Person B
+
+
+KEY FEATURES
+
+• Two-way voice communication
+• Short-range, face-to-face connection
+• Active Noise Cancellation can remain enabled
+• Each person keeps their own audio
+• Low-latency communication
+• Voice can automatically become louder when the other person speaks
+• No traditional phone call required
+• Designed to work with existing AirPods hardware where technically possible
+
+
+EXAMPLE
+
+Two friends are sitting next to each other on an airplane.
+
+Both are wearing AirPods with ANC enabled and listening to different music.
+
+They activate AirPods Bubble.
+
+One person speaks normally.
+
+Their voice is transmitted through the nearby wireless connection and played through their friend's AirPods.
+
+The friend responds and their voice is transmitted back.
+
+Both people can continue listening to their own audio while having a conversation without removing their AirPods.
+
+
+POTENTIAL USES
+
+• Airplanes
+• Buses
+• Trains
+• Airports
+• Loud workshops
+• Stadiums
+• Concerts
+• Amusement parks
+• Other noisy environments
+
+
+CORE CONCEPT
+
+AirPods Bubble does not replace the user's existing audio experience.
+
+It adds a private, low-latency voice channel between nearby people.
+
+LISTEN TO YOUR WORLD.
+TALK TO YOUR PEOPLE.
+STAY IN THE BUBBLE.
+
+
+CURRENT STATUS
+
+Concept: Complete
+Technical concept: Drafted
+Prototype: Not started
+
+NEXT STEP
+
+Create a basic prototype demonstrating two-way voice communication between two nearby devices.
