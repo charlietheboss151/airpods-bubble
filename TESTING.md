@@ -4,6 +4,8 @@ Tests follow the milestones in [PROJECT_PLAN.md](PROJECT_PLAN.md). A module test
 
 There are **no automated tests in this repository yet**. Do not add tests that mock the full Bubble pipeline and call it proven.
 
+Device and Xcode tests are parked until there is a Mac. Do not add a simulator target or CI iOS job as a stand-in.
+
 ## Principles
 
 - Test the smallest piece that can fail.

@@ -8,11 +8,13 @@ This is not a recreation of Apple’s proprietary AirPods software, Audio Sharin
 
 **Milestone 1 — project setup.** The repository and planning documents exist. There is no runnable app, no audio pipeline, and no networking implementation.
 
+There is **no Mac available** right now. Do not create an Xcode project, a Swift package, or any iOS build. Work stays documentation, research, and architecture until that changes.
+
 | Item | Status |
 |---|---|
 | Product concept | Written (`Concept/`) |
 | Planning docs | Written |
-| iOS app | Not started |
+| iOS / Xcode project | Parked (no Mac) |
 | Audio input/output | Not started |
 | Nearby discovery / transport | Not started |
 | Pairing / security | Not started |
@@ -20,22 +22,17 @@ This is not a recreation of Apple’s proprietary AirPods software, Audio Sharin
 
 ## How to run it
 
-You cannot run AirPods Bubble yet. There is no Xcode project and no build.
+You cannot run AirPods Bubble yet. There is no app and no build, and we are not setting up Xcode until there is a Mac.
 
-Later milestones will need:
+On this Windows machine the repo is documentation only. Open `C:\Users\charl\airpods-bubble` (or a clone of the GitHub repo) and read the documents below.
 
-- A Mac with a current Xcode
-- Two iPhones
-- Two pairs of AirPods (or one pair per phone under test)
-- This repository cloned onto the Mac
-
-On this Windows machine the repo is documentation only.
-
-When an app exists, this section will name the exact Xcode scheme, bundle identifier, and run steps. Until then, treat any claim that Bubble “works” as unproven.
+When a Mac exists later, Milestone 2 will need Xcode, at least one iPhone, and AirPods for route tests. Two phones are required from Milestone 3 onward. Until an app exists, treat any claim that Bubble “works” as unproven.
 
 ## How it is built
 
-There is no toolchain build yet. The intended stack, to be confirmed when implementation starts:
+There is no toolchain build yet. Do not add `xcodebuild` steps or an `.xcodeproj` while Xcode is parked.
+
+The intended stack, to be confirmed when implementation starts on a Mac:
 
 - Swift, SwiftUI, and an Xcode iOS app
 - Audio: `AVAudioSession`, `AVAudioEngine`, `AVAudioInputNode`, `AVAudioPlayerNode`, documented converters/codecs
@@ -53,8 +50,6 @@ App/
 └── Utilities/
 Tests/
 ```
-
-Build and test commands will be added when they exist. Do not assume a `xcodebuild` invocation until Milestone 2 creates the project on a Mac.
 
 Version **0.1.0** is documentation and repository setup only.
 

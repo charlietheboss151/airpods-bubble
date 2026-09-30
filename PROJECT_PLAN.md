@@ -4,6 +4,12 @@ AirPods Bubble is built in small milestones. Only one milestone is active at a t
 
 This file is the plan. It does not claim unfinished work is complete.
 
+## Current constraint
+
+No Mac is available. **Xcode, the iOS app target, and Milestones 2–10 are parked.** Do not scaffold an Xcode project or write Swift “just in case.”
+
+Work that is still allowed on Windows: keep the docs honest, refine research and architecture, and plan tests. That is not a substitute for device proof.
+
 ## In progress / done
 
 ### Milestone 1 — Project setup
@@ -14,11 +20,13 @@ This file is the plan. It does not claim unfinished work is complete.
 - Reserve `App/` and `Tests/` folders without fake implementations.
 - Do not write audio, networking, security, or UI code.
 
-## Not started
+## Parked (needs a Mac and Xcode later)
 
 ### Milestone 2 — Audio input/output proof of concept
 
 Local capture and playback on one iPhone. No network. Prove that the app can record from the current input route (hopefully AirPods mic) and play to the current output route (hopefully AirPods).
+
+Start this only after there is a Mac. Do not begin it on Windows.
 
 ### Milestone 3 — Nearby iPhone discovery
 
@@ -58,3 +66,4 @@ Two iPhones, two sets of AirPods, noisy environment, ANC on if the system allows
 - Long-distance calling (this is nearby device-to-device)
 - Assuming ANC, mic quality, or Bluetooth HFP routing can be controlled if no public API does that
 - Implementing all modules in one change
+- Creating an Xcode project or Swift sources while there is no Mac
